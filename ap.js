@@ -112,4 +112,6 @@ function decreasing(){if(count > 0){count--;
    document.getElementById('resultDiv').innerHTML = count;
 }}
 
-function resetting(){ document.getElementById('resultDiv').innerHTML = '';}
+function resetting(){ document.getElementById('resultDiv').innerHTML = '0';}
+
+window.onload = function(){document.getElementById('resultDiv').innerHTML = '0'}
